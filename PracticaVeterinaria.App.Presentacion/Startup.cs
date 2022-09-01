@@ -23,10 +23,12 @@ namespace PracticaVeterinaria.App.Presentacion
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Agregar RazorPages
             services.AddRazorPages();
 
-            //Asociamos los repositorios a la capa de presentación para el uso del servicio DbContext        
+            //Asociamos los repositorios a la capa de presentación para el uso del servicio DbContext.        
             services.AddScoped<IRepositorioPropietario, RepositorioPorpietario>();
+            //AppContext
             services.AddSingleton<PracticaVeterinaria.App.Persistencia.AppRepositorios.AppContext>();
         }
 
