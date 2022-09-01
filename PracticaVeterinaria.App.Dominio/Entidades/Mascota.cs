@@ -4,7 +4,7 @@ namespace PracticaVeterinaria.App.Dominio
     public class Mascota
     {
         
-        public int idMascota { get; set; }
+        public int id { get; set; }
         public string nombre { get; set; }
         public string color { get; set; }
         public string especie { get; set; }
