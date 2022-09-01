@@ -7,10 +7,7 @@ namespace PracticaVeterinaria.App.Consola
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            Propietario propietario1 = new Propietario();
-
+            Console.WriteLine("Impresión por consola");
         }
     }
 }
