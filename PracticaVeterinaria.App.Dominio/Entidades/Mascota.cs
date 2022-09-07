@@ -15,6 +15,5 @@ namespace PracticaVeterinaria.App.Dominio
         public Veterinario veterinario { get; set; }
 
 
-
     }
 }

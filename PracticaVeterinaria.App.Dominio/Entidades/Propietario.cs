@@ -7,6 +7,7 @@ namespace PracticaVeterinaria.App.Dominio
         public string cedula { get; set; }
         public string direccion { get; set; }
         public string correo { get; set; }
+   
 
     }
 }

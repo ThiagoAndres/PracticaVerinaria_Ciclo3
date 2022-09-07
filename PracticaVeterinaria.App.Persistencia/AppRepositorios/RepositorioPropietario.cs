@@ -19,6 +19,7 @@ using PracticaVeterinaria.App.Persistencia;
 Es un conjunto de instrucciones integradas en el lenguaje C#, que nos
 permite trabajar de manera flexible y rápida con colecciones de datos.
 */
+
 using System.Linq;
 
 //trazabilidad y jerarquia con namespace
