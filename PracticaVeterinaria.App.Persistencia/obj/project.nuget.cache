@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OghtFDPfw2nsJMpF/YiDCjfVbilIGKcsp4qa+VhNsB6iB2FchrkHF++gNHndasT8e3/h0GfYyvurQt/OdSJ7sg==",
+  "dgSpecHash": "vnfKUzLrJEHX9rXUyl5suf9ld4t0JoSbt0Jm9SNTXQkOhtgVtv0xgdxkcSbECSZxO3RDRG+/mXxtadoWJStImQ==",
   "success": true,
-  "projectFilePath": "D:\\PracticaVeterinaria\\PracticaVeterinaria.App\\PracticaVeterinaria.App.Persistencia\\PracticaVeterinaria.App.Persistencia.csproj",
+  "projectFilePath": "D:\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria.App.Persistencia\\PracticaVeterinaria.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus 1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Asus 1\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

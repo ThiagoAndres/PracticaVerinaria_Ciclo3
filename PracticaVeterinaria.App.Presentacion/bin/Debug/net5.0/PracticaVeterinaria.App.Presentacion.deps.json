@@ -30,6 +30,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.0",
           "PracticaVeterinaria.App.Dominio": "1.0.0",
+          "PracticaVeterinaria.App.Persistencia": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -1308,6 +1309,19 @@
         },
         "compile": {
           "PracticaVeterinaria.App.Dominio.dll": {}
+        }
+      },
+      "PracticaVeterinaria.App.Persistencia/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
+          "PracticaVeterinaria.App.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "PracticaVeterinaria.App.Persistencia.dll": {}
+        },
+        "compile": {
+          "PracticaVeterinaria.App.Persistencia.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3696,6 +3710,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "PracticaVeterinaria.App.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PracticaVeterinaria.App.Persistencia/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

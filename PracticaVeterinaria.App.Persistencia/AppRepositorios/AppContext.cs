@@ -1,20 +1,20 @@
 using Microsoft.EntityFrameworkCore;
 using PracticaVeterinaria.App.Dominio;
 
+//Antes de la migración
 namespace PracticaVeterinaria.App.Persistencia
+
+//Para trabajar después de migración con conexión a Front-end
+//namespace PracticaVeterinaria.App.Persistencia.AppRepositorios
 {
     public class AppContext : DbContext
     {
         public DbSet<Propietario> propietarios { get; set; }
         public DbSet<Veterinario> veterinarios { get; set; }
         public DbSet<Mascota> mascotas { get; set; }
-        public DbSet<Visita> visitas { get; set; }
-
-        
+        public DbSet<HistoriaClinica> HistoriasClinicas { get; set; }
 
         // implementar todas las clases
-
-
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {

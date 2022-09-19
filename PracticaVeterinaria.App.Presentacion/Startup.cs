@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PracticaVeterinaria.App.Persistencia.AppRepositorios;
 
 namespace PracticaVeterinaria.App.Presentacion
 {
@@ -26,10 +27,11 @@ namespace PracticaVeterinaria.App.Presentacion
             //Agregar RazorPages
             services.AddRazorPages();
 
-            //Asociamos los repositorios a la capa de presentación para el uso del servicio DbContext.        
-            services.AddScoped<IRepositorioPropietario, RepositorioPorpietario>();
+             //Asociamos los repositorios a la capa de presentación para el uso del servicio DbContext.        
+            //services.AddScoped<IRepositorioPropietario, RepositorioPropietario>();
             //AppContext
-            services.AddSingleton<PracticaVeterinaria.App.Persistencia.AppRepositorios.AppContext>();
+            //services.AddSingleton<PracticaVeterinaria.App.Persistencia.AppRepositorios.AppContext>();
+            //services.AddSingleton<IRepositorioPropietario, RepositorioPropietario>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -5758,11 +5758,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PracticaVeterinaria\\PracticaVeterinaria.App\\PracticaVeterinaria.App.Consola\\PracticaVeterinaria.App.Consola.csproj",
+      "projectUniqueName": "D:\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria.App.Consola\\PracticaVeterinaria.App.Consola.csproj",
       "projectName": "PracticaVeterinaria.App.Consola",
-      "projectPath": "D:\\PracticaVeterinaria\\PracticaVeterinaria.App\\PracticaVeterinaria.App.Consola\\PracticaVeterinaria.App.Consola.csproj",
+      "projectPath": "D:\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria.App.Consola\\PracticaVeterinaria.App.Consola.csproj",
       "packagesPath": "C:\\Users\\Asus 1\\.nuget\\packages\\",
-      "outputPath": "D:\\PracticaVeterinaria\\PracticaVeterinaria.App\\PracticaVeterinaria.App.Consola\\obj\\",
+      "outputPath": "D:\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5782,11 +5782,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\PracticaVeterinaria\\PracticaVeterinaria.App\\PracticaVeterinaria.App.Dominio\\PracticaVeterinaria.App.Dominio.csproj": {
-              "projectPath": "D:\\PracticaVeterinaria\\PracticaVeterinaria.App\\PracticaVeterinaria.App.Dominio\\PracticaVeterinaria.App.Dominio.csproj"
+            "D:\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria.App.Dominio\\PracticaVeterinaria.App.Dominio.csproj": {
+              "projectPath": "D:\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria.App.Dominio\\PracticaVeterinaria.App.Dominio.csproj"
             },
-            "D:\\PracticaVeterinaria\\PracticaVeterinaria.App\\PracticaVeterinaria.App.Persistencia\\PracticaVeterinaria.App.Persistencia.csproj": {
-              "projectPath": "D:\\PracticaVeterinaria\\PracticaVeterinaria.App\\PracticaVeterinaria.App.Persistencia\\PracticaVeterinaria.App.Persistencia.csproj"
+            "D:\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria.App.Persistencia\\PracticaVeterinaria.App.Persistencia.csproj": {
+              "projectPath": "D:\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria_Ciclo3\\PracticaVeterinaria.App.Persistencia\\PracticaVeterinaria.App.Persistencia.csproj"
             }
           }
         }
